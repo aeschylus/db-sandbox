@@ -15,7 +15,7 @@ When you are done developing `cd` into the root project directory (the one this 
 You can check (or locally change) the settings for the db in the [`docker-compose.yml`](https://github.com/aeschylus/db-sandbox/blob/main/docker-compose.yml) file.
 
 ### Using the pgAdmin installation
-The sandbox includes pgAdmin4 pre-configured to connect to the database. Visit [localhost:5050](http://localhost:5050) to open the dashboard. You may be asked for the password to connect to postgres. The password is `root`.
+The sandbox includes pgAdmin4 pre-configured to connect to the database. Visit [localhost:5050](http://localhost:5050) to open the dashboard. A dummy admin account has been pre-configured. The "email" is `admin@admin.com` and the password is `root`. You may be asked for the password to connect to postgres. The password for that is also `root`.
 
 ## Connecting from Python or Javascript
 The connection details are included in the `docker-compose.yml` file as [environment variables](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa). The password for the postgres user is `root` and the user is `root`. Naturally this is only appropriate for local experimentation.
