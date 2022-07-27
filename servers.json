@@ -1,0 +1,13 @@
+{
+    "Servers": {
+        "db-sandbox-postgres": {
+            "Name": "db-sandbox-postgres",
+            "Group": "Servers",
+            "Port": 5432,
+            "Username": "root",
+            "Host": "db-sandbox-postgres",
+            "SSLMode": "prefer",
+            "MaintenanceDB": "postgres"
+        }
+    }
+}
